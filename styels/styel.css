@@ -1,0 +1,86 @@
+/* nav bar ar jonne */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Fira Sans", serif; 
+    background-color: rgb(230, 230, 230);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 32px 160px;
+}
+.s-btn{
+    border: 1px solid #006A50;
+    color: #006A50;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 30px;
+}
+.s-btn:hover{
+    background-color: #1f987a;
+    color: black;
+    cursor: pointer;
+}
+/* bannar section */
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 44px;
+}
+.banner-img{
+    width: 430px;
+    height: 400px;
+}
+.secendery-bg{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 60px;
+    margin: 0px 160px;
+}
+.ban20{
+    color: #0e0e0ea2;
+    
+}
+.primary-btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+.banner-text{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 16px 0px 24px 0px;
+}
+/* main section st */
+.sec-header{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+main{
+    margin: 80px 160px;
+}
+.Pillars-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+    
+}
+.pillar{
+    border: 2px solid white;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 20PX;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
