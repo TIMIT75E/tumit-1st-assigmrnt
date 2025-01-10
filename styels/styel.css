@@ -288,3 +288,14 @@ footer{
     border-radius: 0px 8px 8px 0px;
     margin: 24px 0 0 0px;
 }
+/* last part */
+.last{
+    text-align: center;
+    margin: 110px;
+}
+.b-name{
+    margin: 50px 0px;
+}
+.a-tag{
+    margin: 20px 0px;
+}
