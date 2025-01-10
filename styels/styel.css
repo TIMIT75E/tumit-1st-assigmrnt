@@ -97,9 +97,10 @@ main{
     margin-top: 80px;
 }
 .primary-btn{
-    padding: 10px 4px;
+    padding: 20px 15px;
     border-radius: 8px;
     width: 140px;
+    font-weight: 600;
 }
 .first-btn{
     background-color: #5490F5;
@@ -200,4 +201,90 @@ main{
     background-color:#05a77f ;
     color: black;
     cursor: pointer;
+}
+/* footer section */
+footer{
+    margin: 80px 160px;
+}
+.donate{
+    text-align: center;
+}
+.amount-sec{
+    display: flex;
+    gap: 24 px;
+    justify-content: space-around;
+    margin: 30px 255px;
+}
+.amount{
+    border: 2px solid white;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 20PX;
+}
+.taka{
+    margin-bottom: 24px;
+}
+.amount:hover{
+    background-color: #46ed9f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.two{
+    background-color: #C6E4D6;
+    border: none;
+}
+.amount-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amount-container input{
+    border: none;
+    padding: 15px 300px;
+}
+.amount-btn{
+    justify-content: center;
+    text-align: center;
+    margin: 32px;
+}
+.inpt-btn{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    
+}
+.inpt-btn:hover{
+    background-color: #029c75;
+    color: black;
+    cursor: pointer;
+}
+#hero{
+    padding: 80px 60px;
+    margin: 80px 160px;
+    background-color: #C6E4D6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    gap: 18px;
+    border-radius: 24px;
+}
+#hero .subscribe {
+    display: flex;
+    align-items: center;
+    gap: 0 ;
+}
+#hero .subscribe input{
+    border: none;
+    padding: 18px 300px 18px 40px;
+    margin: 24px 0 0 90px;
+    border-radius: 8px 0px 0px 8px;
+}
+#hero .subscribe button{
+    padding: 18px 34px 18px 34px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    margin: 24px 0 0 0px;
 }
