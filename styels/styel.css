@@ -274,12 +274,13 @@ footer{
 #hero .subscribe {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0 ;
 }
 #hero .subscribe input{
     border: none;
-    padding: 18px 300px 18px 40px;
-    margin: 24px 0 0 90px;
+    padding: 18px 290px 18px 40px;
+    margin: 24px 0 0 0px;
     border-radius: 8px 0px 0px 8px;
 }
 #hero .subscribe button{
@@ -287,6 +288,12 @@ footer{
     border: none;
     border-radius: 0px 8px 8px 0px;
     margin: 24px 0 0 0px;
+    background-color: #006A50;
+    color: white;
+}
+#hero .subscribe button:hover{
+    background-color:#018f6c;
+    color: black;
 }
 /* last part */
 .last{
